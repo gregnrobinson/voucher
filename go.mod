@@ -10,7 +10,7 @@ require (
 	github.com/antihax/optional v1.0.0
 	github.com/bradleyfalzon/ghinstallation v1.1.1
 	github.com/coreos/clair v2.0.5+incompatible
-	github.com/docker/distribution v2.6.0-rc.1.0.20180913220339-b089e9168825+incompatible
+	github.com/docker/distribution v2.8.0+incompatible
 	github.com/docker/docker v1.13.2-0.20170524085120-eef6495eddab
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.3.3 // indirect
