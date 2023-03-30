@@ -10,7 +10,7 @@ RUN apk --no-cache add \
     make voucher_server
 
 # Final build
-FROM alpine:3.12
+FROM alpine:3.14
 
 COPY --from=builder /go/src/github.com/grafeas/voucher/build/voucher_server /usr/local/bin/voucher_server
 COPY --from=builder /go/src/github.com/grafeas/voucher/entrypoint.sh /usr/local/entrypoint.sh
