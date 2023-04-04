@@ -11,7 +11,7 @@ require (
 	github.com/bradleyfalzon/ghinstallation v1.1.1
 	github.com/coreos/clair v2.0.5+incompatible
 	github.com/docker/distribution v2.6.0-rc.1.0.20180913220339-b089e9168825+incompatible
-	github.com/docker/docker v1.13.2-0.20170524085120-eef6495eddab
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.3.3 // indirect
 	github.com/docker/libtrust v0.0.0-20160708172513-aabc10ec26b7
@@ -36,12 +36,11 @@ require (
 	github.com/spf13/cobra v0.0.3
 	github.com/spf13/viper v1.4.0
 	github.com/stretchr/testify v1.4.0
-	golang.org/x/crypto v0.0.0-20191011191535-87dc89f01550
-	golang.org/x/net v0.0.0-20200226121028-0de0cce0169b // indirect
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sys v0.0.0-20200406155108-e3b113bbe6a4 // indirect
 	google.golang.org/api v0.15.0
 	google.golang.org/genproto v0.0.0-20200122232147-0452cf42e150
 	google.golang.org/grpc v1.26.0
 	gopkg.in/yaml.v2 v2.2.8 // indirect
+	gotest.tools/v3 v3.4.0 // indirect
 )
